@@ -1,3 +1,2 @@
-def euGosto(atividade):
+def nomeDeVolta(atividade):
     return "Eu gosto de " + atividade
-print(euGosto("música"))
