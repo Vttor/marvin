@@ -11,4 +11,4 @@ def alfabetoMilitar(letra):
     elif letra == "u":
         return "uniform"
     else:
-        return "false"
+        return False
