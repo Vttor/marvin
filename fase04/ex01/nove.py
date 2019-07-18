@@ -1,5 +1,6 @@
 def nove(n1):
     if str(n1)[-1:] == "9":
-        return "true"
+        return True
     else:
-        return "false"
+        return False
+print(nove(3))
