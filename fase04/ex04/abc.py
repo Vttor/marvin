@@ -1,6 +1,6 @@
 def abc(pal):
-    pal = pal.lower()
-    if pal[:1] == "a" or pal[:1] == "b" or pal[:1] == "c": 
+    pal = pal[:1].lower()
+    if pal == "a" or pal == "b" or pal == "c": 
         return True
     else:
         return False
