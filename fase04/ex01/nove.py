@@ -3,4 +3,3 @@ def nove(n1):
         return True
     else:
         return False
-print(nove(3))
