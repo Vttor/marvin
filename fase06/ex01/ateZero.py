@@ -1,10 +1,13 @@
 def ateZero(num):
+    array = []
     i=0
     if(num<0):
         while(num<=0):
-            print(num)
+            array.insert(i,num)
             num = num + 1
+            i = i + 1
     else:
         while(i<=num):
-            print(i)
+            array.insert(i,i)
             i = i + 1
+    return array
