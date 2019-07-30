@@ -13,4 +13,5 @@ def por42(num1,num2):
         if(num1 > num2):
             num1 = False
             i = 1
+            print("Não encontrado")
     return num1
