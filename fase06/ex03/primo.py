@@ -14,7 +14,7 @@ def primo(num):
                 i = i + num
             else:
                 i = i + 1
-        if(j == 1 or num == 1):
+        if(j == 1 or num == 1 or num == 0):
             return "Não"
         else:
             return "Sim"
