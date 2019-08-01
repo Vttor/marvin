@@ -1,13 +1,13 @@
-
 def precoMedio(*x):
-    arr = []
     qtd = len(x)
+    arr = []
     soma = 0
     for i in range(0,qtd):
-        soma = soma + float(x[i]["preco"])
-        arr.insert(i,str(x[i]["preco"]) + str(i))
+        arr.insert(i,x[i]["preco"])
+        soma += x[i]["preco"]
     arr.sort()
-    print("O produto mais caro se chama " + x[int(arr[qtd - 1][-1:])]["nome"])
-    return soma/qtd
-    
-print(precoMedio({"nome": "Batata", "preco": 2.20},{"nome": "Melancia", "preco": 4.92}))
+    maiorPreco = arr[qtd - 1]
+    for i in range(0,qtd):
+        if (x[i]["preco"] ==  maiorPreco):
+            print("O produto mais caro se chama " + x[i]["nome"])
+    return round(soma/qtd,2)
