@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+    </head>
+    <body>
+        <div id="container">
+            <h1 id="texto"></h1>
+            <input type = "text" id="caixaTexto" name="texto" value="">
+            <input type="button" value="OK" onclick=clique()>
+        </div>
+    </body>
+</html>
