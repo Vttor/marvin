@@ -1,8 +1,26 @@
-function clique(){
-    min=document.getElementById("min").value
-    max=document.getElementById("max").value
-    if(max<min){
-        alert("O valor minimo está menor que o máximo")
-    }
-    document.getElementById("texto").innerHTML="j"
-}
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>FiizBuzz, de novo</title>
+    </head>
+    <body>
+    <div align="center">
+    <select name="min" id="min">
+        <option>-</option>
+        <option value="-5">-5</option>
+        <option value="0">0</option>
+        <option value="33">33</option>
+        <option value="42">42</option>
+    </select>
+    <select name="max" id="max">
+        <option>-</option>
+        <option value="3">3</option>
+        <option value="7">7</option>
+        <option value="81">81</option>
+        <option value="99">99</option>
+    </select>
+    <input type="button" value="OK" onclick=clique()>
+    <h1 id="texto"></h1>
+    </div>
+    </body>
+</html>
