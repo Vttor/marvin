@@ -1,13 +1,21 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        
-    </head>
-    <body>
-        <div id="container">
-            <h1 id="texto"></h1>
-            <input type = "text" id="caixaTexto" name="texto" value="">
-            <input type="button" value="OK" onclick=clique()>
-        </div>
-    </body>
-</html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="ex00.css">
+    <title>Olá eu</title>
+</head>
+<body>
+    <div>
+        <p>Escreva seu texto</p>
+        <form onsubmit="javascript:enviarTexto()">
+            <input type="text" class="caixa" id="textbox">
+            <input type="submit" value="OK" class="botao" id="botao">
+        </form>
+    </div>
+    <div class="divTexto">
+        <p id="texto"></p>
+    </div>
+</body>
