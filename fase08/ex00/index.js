@@ -1,4 +1,5 @@
-function clique(){
-    document.getElementById("texto").innerHTML = document.getElementById("caixaTexto").value
-    document.getElementById("caixaTexto").value = ""
-}
+    function enviarTexto(){
+        event.preventDefault();
+        document.getElementById("texto").innerHTML = document.getElementById("textbox").value;
+        document.getElementById("textbox").value=""
+    }
