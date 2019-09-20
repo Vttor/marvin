@@ -1,4 +1,25 @@
-#container{
-    background: rgb(14, 181, 65);
+body{
+    background: black;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+input{
+    margin-top: 50px;
+    border-radius: 5px;
+}
+p{
+    font-size: 25px;
+    color: aliceblue;
+}
+.divTexto{
+    margin-top: 20px;
+    border: solid white 2px;
+    height: 50px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
     
 }
